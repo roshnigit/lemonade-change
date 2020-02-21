@@ -1,0 +1,15 @@
+lst=[5,5,5,10,20]
+f=t=d=0
+for i in lst:
+    if i==5:
+        f+=1
+    if i==10:
+        t+=1
+    if i==20:
+        d+=1
+if f-t>=1:
+    if f-t-d>=0:
+        print("true")
+else :
+    print("False")
+    
